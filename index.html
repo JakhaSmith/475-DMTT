@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Детский сад «СЕВИНЧ»</title>
+  <style>
+    body {
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Весь текст по центру */
+      background: url("background.jpg") no-repeat center center fixed;
+      background-size: cover; /* картинка будет растягиваться */
+    }
+    header {
+      background: rgba(248, 194, 145, 0.9); /* прозрачность для читаемости */
+      padding: 20px;
+    }
+    nav a {
+      font-size: 20px;
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    .hero {
+      background: rgba(255, 234, 167, 0.9);
+      padding: 40px;
+      border-radius: 15px;
+      display: inline-block; /* чтобы блок был по центру */
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center; /* картинки по центру */
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 220px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    section {
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8); /* лёгкий фон для читаемости */
+      border-radius: 15px;
+      max-width: 900px;
+    }
+    footer {
+      background: rgba(223, 230, 233, 0.9);
+      padding: 15px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Детский сад «СЕВИНЧ»</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>ДОБРО ПОЖАЛОВАТЬ!</h2>
+    <p>Место, где растут счастливые дети 🌞</p>
+    <p>Наш детский сад — уютное место для развития, игр и обучения малышей с заботой и любовью.</p>
+  </section>
+
+  <section id="about">
+    <h2>О НАС</h2>
+    <p>В детском саду есть занятия:</p>
+    <p>🏅 Каратэ</p>
+    <p>🤸‍♀️ Гимнастика</p>
+    <p>🎵 Музыка</p>
+    <p>🇬🇧 Английский</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery">
+      <img src="photo1.jpg" alt="фото 1">
+      <img src="photo2.jpg" alt="фото 2">
+      <img src="photo3.jpg" alt="фото 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>📍 Адрес: г. Ташкент, Чиланзарский район, квартал-Ц 475-ГДОО<br>
+       📞 Телефон: +998 71 273 43 35 </p>
+    <p>✉️ Telegram: <a href="https://t.me/douSevinch" target="_blank">t.me/douSevinch</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Детский сад «СЕВИНЧ». </p>
+  </footer>
+</body>
+</html>
